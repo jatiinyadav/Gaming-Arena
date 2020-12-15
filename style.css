@@ -7,55 +7,12 @@ body {
 @import url("font-awesome/css/all.min.css");
 @import url("micons/micons.css");
 
-.navbar{
-    background-color: black;
-    top: 0;
-    left: 0;
-    right: 0;
-    position: fixed;
-}
 
 @font-face{
     font-family: 'robuS';
     src: url('../css/font-awesome/fonts/fontawesome-webfont.ttf');
 }
 
-.navbar li{
-    float:left;
-    list-style: none; 
-    margin: 13px 20px;
-    
-}
-
-.navbar ul{
-    overflow: auto;
-}
-
-.navbar li a{
-    padding: 3px 3px;
-    text-decoration: none;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    top: 0;
-    margin: 80px;
-}
-
-.navbar input{
-    border: 2px solid black;
-    border-radius: 14px;
-    padding: 3px 17px;
-    width: 129px;
-}
-
-.navYT {
-    transition: 1s;  
-}
-
-.navYT:hover {
-    color: cyan;
-    font-size: 18px;
-    cursor: -webkit-grab; cursor: grab;
-}
 .BUTTON_IDI {
     margin-top: 7rem;
     margin-bottom: 7rem;
@@ -128,7 +85,6 @@ body {
     height: 680px;
     color: white;
     font-family: system-ui;
-    font-size: 48px;
 }
 
 .bodygradient{  
@@ -233,51 +189,6 @@ body {
     border: solid 10px;
 }
 
-.table1 {
-    margin-top: 200px;
-    margin-left: 110%;
-    height: 200px;
-    width: 200px;
-    border: solid 5px;
-}
-
-.table2 {      
-    margin-top: 200px;
-    height: 200px;                                                      
-    width: 200px;
-    margin-left: 260%;
-    border: solid 5px;
-}
-
-.table3 {
-    margin-top: 200px;
-    margin-left: 363%;
-    height: 200px;
-    width: 200px;
-    border: solid 5px;
-}
-
-.table4 {
-    height: 200px;
-    width: 200px;
-    margin-left: 250px;
-    border: solid 5px;
-}
-
-.table5 {
-    height: 200px;
-    width: 200px;
-    margin-left: 530px;
-    border: solid 5px;
-}
-
-.table6 {
-    height: 200px;
-    width: 200px;
-    margin-left: 290%;
-    border: solid 10px;
-    transition: .5s ease;
-}
 .container {
     height: 200px;
     width: 200px;
@@ -362,7 +273,7 @@ body {
     width: 70rem;
     padding-left: 13rem;
     text-align: center;
-    font-size: 12px;
+    font-size: 19px;
     font-family: 'Montserrat', sans-serif;
     line-height: 2;
 }
@@ -559,16 +470,6 @@ h1 {
     margin-left: 360px;
 }
 
-.jatindp {
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-}
-.krishandp {
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-}
 
 .last {
     margin-left: 20%;
@@ -658,6 +559,8 @@ h1 {
 }
 
 .fot {
+    background-color: lightblue;
+    padding:20px;
     font-family: 'Montserrat', sans-serif;
     font-size: 0.75rem;
 }
