@@ -132,7 +132,6 @@ body {
 }
 
 .bodygradient{  
-    margin: 10px;
     border: solid 10px;
     width: 1470px;
     height: 680px;
@@ -163,17 +162,6 @@ body {
     }
 }
 
-.full::before {
-    content: '';
-    position: absolute;
-    width: 1470px;
-    height: 680px;
-}
-
-.full::after {
-    position: relative;
-    text-align: center;
-}
   
 
 .sa{
