@@ -362,8 +362,7 @@ body {
 
 @media (max-width:37.5em){
     .fact{
-        padding: 1rem;
-        font-size: 16px;
+        padding-left: 1rem;
         text-align: left;
         width: 20rem;
     }
@@ -509,12 +508,11 @@ h1 {
     margin-right: 30px;
 }
 
-@media (max-width:37.5em){
+@media (max-width: 37.5em){
     .image{
         height: 170px;
         width: 170px;
-        margin-top: -20px;
-        margin-left: 5rem;
+        margin-left: 1rem;
     }
 }
 
@@ -544,6 +542,17 @@ h1 {
 
 .jy {
     margin-left: 360px;
+}
+
+.jatindp {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.krishandp {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
 }
 
 .last {
