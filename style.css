@@ -102,7 +102,7 @@ body {
 
 }
 
-@media (max-width:37.5rem){
+@media (min-width:37.5em){
    
     .granimate{
         width: 320px;
@@ -112,6 +112,21 @@ body {
     .bodygradient{
         height: 590px;
         width: 320px;
+    }
+    .h {
+        font-size: 60px;
+    }
+}
+
+@media (max-width:42em){
+
+    .granimate{
+        width: 380px;
+        height: 670px;
+    }
+    .bodygradient{
+        width: 380px;
+        height: 670px;
     }
     .h {
         font-size: 60px;
@@ -280,9 +295,9 @@ body {
 
 @media (max-width:37.5em){
     .fact{
-        font-size: 14px;
-        margin-left: -12rem;
-        text-align: left;
+        font-size: 14px;                                                
+        margin-left: -12rem;                    
+        text-align: left;               
         width: 20rem;
     }
 }
@@ -430,7 +445,7 @@ h1 {
 .image {
     width: 200px;
     height: 200px;
-    border-radius: 50%;
+    border-radius: 10%;
     float: left;
     margin-right: 30px;
 }
