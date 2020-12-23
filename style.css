@@ -61,6 +61,7 @@ body {
 
 .granimate {
     background-color: #2ecc71;
+    margin-top: -1rem;
     animation: hue 7s linear 0s infinite reverse;
 }
 
@@ -81,17 +82,17 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 1480px;
-    height: 680px;
+    margin-top: -1rem;
+    margin-left: -1rem;
+    width: 1525px;
+    height: 710px;
     color: white;
     font-family: system-ui;
 }
 
-.bodygradient{  
-    background-image:url("../css/sepso.jpg");
-    border: solid 10px;
-    width: 1480px;
-    height: 680px;
+.bodygradient{
+    width: 1510px;
+    height: 700px;
 }
 
 .h {
@@ -108,36 +109,46 @@ body {
 @media only screen and (max-width: 600px) {
 
     .granimate{
+        margin-left: -1rem;
         width: 20rem;
-        height: 42rem;
+        height: 2rem;
+    }
+    .full{
+        width: 2rem;
+        margin-left: -1rem;
     }
     .bodygradient{
         width: 20rem;
         height: 42rem;
     }   
     .h {
-        font-size: 60px;
+        width: 20rem;
+        text-align: center;
+        font-size: 20px;
     }
 }
 @media only screen and (max-width: 768px) {
 
     .granimate{
+        margin-left: -1rem;
         width: 20rem;
         height: 42rem;
     }
+    
     .bodygradient{
+        margin-left: -1rem;
         width: 20rem;
         height: 42rem;
     }   
     .h {
-        font-size: 60px;
+        font-size: 10px;
     }
 }
 @media only screen and (max-width: 1024px) {
     .full{
         margin-right: 0;
         margin-left: 0;
-        width: 36rem;
+        width: 24rem;
         height: 42rem;
     } 
     .h {
@@ -174,7 +185,7 @@ body {
 }
 
 .next {
-    background-image: url("../css/font-awesome/fonts/sepso.jpg");  
+    background-color:white;  
 }
 
 .f {
@@ -230,11 +241,13 @@ body {
     margin-left: 640px;
     transition: .5s ease;
 }
+
+
   
 .image2 {
     height: 200px;
     width: 200px;
-    border-radius: 50%;
+    border-radius: 10%;
     margin-right: 20px;
 }
 
@@ -248,13 +261,9 @@ body {
 }
   
 .container:hover .image {
-    opacity: 0.3;
+    opacity: 0.8;
 }
-  
-.container:hover .middle {
-    opacity: 1;
-}
-  
+
 .text {
     background-color: #4CAF50;
     color: white;
@@ -362,11 +371,6 @@ h2 {
     -webkit-background-clip: text;
 }
 
-.Gaming{
-    color: black;
-    border: black 10px;
-}
-
 .intro-social {
 	display: block;
 	position: absolute;
@@ -397,7 +401,7 @@ h2 {
 .horizon {
     border: 10px dotted rgb(208, 211, 216);
     border-top: 0;
-    width: 20%;
+    width: 10%;
     margin-bottom: 3rem;
 }
 
@@ -438,15 +442,10 @@ h2 {
 
 h1 {
 	font-family: 'Corben', cursive;
-    font-size: 6rem;
-	color: black;
+	font-size: 6rem;
+	color: white;
 	letter-spacing: 0.1rem;
 	text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.66);
-}
-
-.gaming{
-    background-image: url("../css/sepso.jpg");
-    border: black;
 }
 
 .cloud1 {
@@ -484,8 +483,13 @@ h1 {
 .myself {
     width: 200px;
     height: 200px;
-    border-radius: 50%;
-    margin-left: 30px;
+    border: 10px black solid;
+    border-radius: 10%;
+    margin-left: 2px;
+}
+
+.myself:hover{
+    opacity: 0.8;
 }
 
 .mountain {
@@ -597,6 +601,9 @@ h1 {
 }
 
 .fot {
+    margin-left: -1rem;
+    margin-right: -0.7rem;
+    margin-bottom: -1rem;
     background-color: lightblue;
     padding:20px;
     font-family: 'Montserrat', sans-serif;
