@@ -8,7 +8,7 @@ A Frontend website.
 </ol>
 
 # License
-[MIT](https://github.com/jatiinyadav/jatiinyadav.github.io/blob/master/LICENSE)
+[MIT](https://github.com/jatiinyadav/Gaming-Arena/blob/master/LICENSE)
 
 # Connect Me 
 <div align="center">
